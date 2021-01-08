@@ -1,0 +1,4 @@
+myCPUForAXI:这里放的是AXI可运行89条指令版本
+myCPUForSram:这里放的是Sram可运行89条指令版本
+myCPUForPerf:这里存放的是AXI运行性能测试版本，较myCPUForAXI没有修改多少，就是修改了接口那里
+以上AXI版本均加上了cache，同一份代码，唯一不同就是借口修改（性能测试需要修改）
